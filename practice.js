@@ -139,5 +139,16 @@
 // console.log(factorial(6));
 
 
-// Write a method that accepts two arrays of numbers, and prints the sum of every combination of numbers from first and second array. 
-// For example, if the method receives [1, 5, 10] and [100, 500, 1000], the method should print a list: 101, 501, 1001, 105, 505, 1005, 110, 510, 1010].
+// // Write a method that accepts two arrays of numbers, and prints the sum of every combination of numbers from first and second array. 
+// // For example, if the method receives [1, 5, 10] and [100, 500, 1000], the method should print a list: 101, 501, 1001, 105, 505, 1005, 110, 510, 1010].
+
+// function printSums(nums1, nums2) {
+//   nums1.forEach(function(num1){
+//     nums2.forEach(function(num2){
+//       console.log(num1 + num2);
+//     });
+//   });
+// }
+
+// printSums([1, 5, 10], [100, 500, 1000]);
+

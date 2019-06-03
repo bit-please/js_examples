@@ -141,5 +141,17 @@
 # p factorial(6)
 
 
-# Write a method that accepts two arrays of numbers, and prints the sum of every combination of numbers from first and second array. 
-# For example, if the method receives [1, 5, 10] and [100, 500, 1000], the method should print a list: 101, 501, 1001, 105, 505, 1005, 110, 510, 1010].
+# # Write a method that accepts two arrays of numbers, and prints the sum of every combination of numbers from first and second array. 
+# # For example, if the method receives [1, 5, 10] and [100, 500, 1000], the method should print a list: 101, 501, 1001, 105, 505, 1005, 110, 510, 1010.
+
+# def print_sums(nums_1, nums_2)
+#   nums_1.each do |num1|
+#     nums_2.each do |num2|
+#       puts num1 + num2
+#     end
+#   end
+# end
+
+# print_sums([1, 5, 10], [100, 500, 1000])
+
+p {name:'John', age:34}.class
